@@ -1,33 +1,46 @@
-# 🚀 Machine Learning & Data Science Deployments
+# 🚀 SRMCEM Internship 2026: Machine Learning Deployments
 
-Welcome to my repository of interactive data science web applications! This project showcases the complete machine learning pipeline—from Exploratory Data Analysis (EDA) to model deployment—using Python and Streamlit.
+Welcome to my **SRMCEM Internship** repository! This project serves as a portfolio of my machine learning and data science web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—from exploratory data analysis (EDA) to building predictive models and deploying them as interactive web applications.
 
 ## 🌐 Live Applications
 
-Check out the live deployments of my recent projects here:
+Explore the deployed Streamlit applications for each module of the internship here:
 
-* **[Employee Retention Logistic Regression Model](https://logistic-regression-deployment-skmwerangmu3eeyxxugkbr.streamlit.app/)**
-* **[SRMCEM Internship Project](https://srmcem-internship-6aty6utnsoweamqghmhheu.streamlit.app/)**
-* **[Demo Application](https://ansh-demo-appuct-ejaea7gu8wcwpyexipnphs.streamlit.app/)**
+* **[Data Science Pipeline](https://ansh-demo-appuct-ejaea7gu8wcwpyexipnphs.streamlit.app/)**
+* **[Linear Regression Model](https://srmcem-internship-6aty6utnsoweamqghmhheu.streamlit.app/)**
+* **[Logistic Regression Model](https://logistic-regression-deployment-skmwerangmu3eeyxxugkbr.streamlit.app/)**
 
 ---
 
-## 📊 Core Project: Employee Retention Predictor
+## 📊 Project Overviews
 
-This repository contains the source code for the **Employee Retention Predictor**, an interactive web app that analyzes an HR dataset to uncover the key factors driving employee turnover and uses a Logistic Regression model to predict retention.
+### 1. Data Science Pipeline
+This application demonstrates the foundational steps of data science. It covers data loading, cleaning, preprocessing, and exploratory data analysis (EDA). It provides an interactive interface to visualize datasets and understand underlying patterns before feeding data into machine learning algorithms.
 
-### ✨ Features
-* **Exploratory Data Analysis (EDA):** View raw datasets and summary statistics directly in the browser.
-* **Interactive Visualizations:** Analyze employee retention based on Salary Levels and Departments through rendered bar charts.
-* **Machine Learning Integration:** Features a trained Logistic Regression model utilizing dummy variables (one-hot encoding) to process categorical data.
-* **Live Accuracy Metrics:** Evaluates and displays the model's performance on test data.
+### 2. Linear Regression
+A predictive modeling application that uses Linear Regression to forecast continuous outcomes based on input features. This project highlights model training, evaluation metrics (like Mean Squared Error), and visualizing the line of best fit against real data points.
 
-### 🛠️ Tech Stack
+### 3. Logistic Regression
+An interactive classification model currently tuned for HR analytics. It analyzes variables such as salary, department, and working hours to predict employee retention (whether an employee will stay or leave). It features dummy variable encoding and live accuracy scoring.
+
+---
+
+## 🛠️ Tech Stack
+
 * **Language:** Python
-* **Data Manipulation:** `pandas`
-* **Visualization:** `matplotlib`
+* **Web Framework:** Streamlit
 * **Machine Learning:** `scikit-learn`
-* **Web Framework:** `streamlit`
+* **Data Manipulation:** `pandas`, `numpy`
+* **Data Visualization:** `matplotlib`
+* **Deployment:** Streamlit Community Cloud
 
 ---
 
+## 💻 Running the Projects Locally
+
+To run any of these applications on your local machine, follow these steps:
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/ansh1325/srmcem-internship-26.git](https://github.com/ansh1325/srmcem-internship-26.git)
+cd srmcem-internship-26
