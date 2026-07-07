@@ -1,14 +1,19 @@
-# 🚀 SRMCEM Internship 2026: Machine Learning Deployments
+# 🚀 SRMCEM Internship 2026: Machine Learning & Computer Vision Deployments
 
-Welcome to my **SRMCEM Internship** repository! This project serves as a portfolio of my machine learning and data science web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—from exploratory data analysis (EDA) to building predictive models and deploying them as interactive web applications.
+Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, and computer vision web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—from exploratory data analysis (EDA) and foundational predictive models to advanced image classification systems, all deployed as interactive web applications.
 
 ## 🌐 Live Applications
 
 Explore the deployed Streamlit applications for each module of the internship here:
 
+### Foundational Machine Learning
 * **[Data Science Pipeline](https://ansh-demo-appuct-ejaea7gu8wcwpyexipnphs.streamlit.app/)**
 * **[Linear Regression Model](https://srmcem-internship-6aty6utnsoweamqghmhheu.streamlit.app/)**
 * **[Logistic Regression Model](https://logistic-regression-deployment-skmwerangmu3eeyxxugkbr.streamlit.app/)**
+
+### Computer Vision & Image Classification
+* **[Male/Female Image Classifier](https://male-female-classifier.streamlit.app/)**
+* **[Dog/Cat Image Classifier](https://dog-image-classifier-jspe6lbetkp4emrtgf6bj6.streamlit.app/)**
 
 ---
 
@@ -23,6 +28,12 @@ A predictive modeling application that uses Linear Regression to forecast contin
 ### 3. Logistic Regression
 An interactive classification model currently tuned for HR analytics. It analyzes variables such as salary, department, and working hours to predict employee retention (whether an employee will stay or leave). It features dummy variable encoding and live accuracy scoring.
 
+### 4. Male/Female Image Classifier
+A computer vision application that processes facial features to classify images as male or female. This project demonstrates image preprocessing, feature extraction, and deploying vision-based models into a seamless, user-facing Streamlit environment.
+
+### 5. Dog/Cat Image Classifier
+A classic vision problem tackled through an interactive web app. This module takes user-uploaded images and classifies them into dogs or cats, showcasing the ability to handle unstructured image data and integrate complex predictive models into a highly accessible web interface.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -30,6 +41,7 @@ An interactive classification model currently tuned for HR analytics. It analyze
 * **Language:** Python
 * **Web Framework:** Streamlit
 * **Machine Learning:** `scikit-learn`
+* **Image Processing:** `Pillow (PIL)`, `OpenCV` *(Deep Learning via TensorFlow/PyTorch if applicable)*
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`
 * **Deployment:** Streamlit Community Cloud
