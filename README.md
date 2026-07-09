@@ -1,6 +1,6 @@
 # 🚀 SRMCEM Internship 2026: Machine Learning & Deep Learning Deployments
 
-Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, and deep learning web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—spanning exploratory data analysis (EDA), foundational predictive models, and custom Convolutional Neural Networks (CNNs) deployed as interactive web applications.
+Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, and deep learning web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—spanning exploratory data analysis (EDA), foundational predictive models, and custom deep neural networks deployed as interactive web applications.
 
 ## 🌐 Live Applications
 
@@ -15,6 +15,7 @@ Explore the deployed Streamlit applications for each module of the internship he
 * **[Male/Female Image Classifier](https://male-female-classifier.streamlit.app/)**
 * **[Dog/Cat Image Classifier](https://dog-image-classifier-jspe6lbetkp4emrtgf6bj6.streamlit.app/)**
 * **[End-to-End CNN Binary Classifier](https://end-to-end-cnn-deployment-for-binary-image-classification-g4ty.streamlit.app/)**
+* **[Covid Detection (PulmonaryNet)](https://pulmonarynet-dl-automated-radiograph-classification.streamlit.app/)**
 
 ---
 
@@ -37,6 +38,9 @@ A classic vision problem tackled through an interactive web app. This module tak
 
 ### 6. End-to-End CNN Binary Classifier
 An advanced deep learning deployment featuring a custom Convolutional Neural Network (CNN) configured for binary image classification. This architecture showcases a production-ready vision pipeline—handling raw image normalization, layer-by-layer feature map extractions, and outputting live inference probabilities upon image upload.
+
+### 7. Covid Detection (PulmonaryNet)
+An automated medical radiograph classification system powered by deep learning. PulmonaryNet processes chest X-ray images to assist in early screening and detection of COVID-19, showcasing how advanced computer vision architectures can be applied safely and effectively to real-world healthcare datasets.
 
 ---
 
