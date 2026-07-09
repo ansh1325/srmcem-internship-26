@@ -14,6 +14,7 @@ Explore the deployed Streamlit applications for each module of the internship he
 
 ### Computer Vision & Deep Learning
 * **[Male/Female Image Classifier](https://male-female-classifier.streamlit.app/)**
+* **[Eye-Based Gender Classifier](https://eyes-gender-finder-3.streamlit.app/)**
 * **[Dog/Cat Image Classifier](https://dog-image-classifier-jspe6lbetkp4emrtgf6bj6.streamlit.app/)**
 * **[End-to-End CNN Binary Classifier](https://end-to-end-cnn-deployment-for-binary-image-classification-g4ty.streamlit.app/)**
 * **[Covid Detection (PulmonaryNet)](https://pulmonarynet-dl-automated-radiograph-classification.streamlit.app/)**
@@ -38,18 +39,21 @@ An interactive classification model currently tuned for HR analytics. It analyze
 An unsupervised machine learning application that groups unlabeled data into distinct clusters based on feature similarity. This project highlights the implementation of the K-Means algorithm, demonstrating feature scaling, elbow-method optimization, and the visualization of cluster centroids to discover hidden patterns within datasets.
 
 ### 5. Male/Female Image Classifier
-A computer vision application that processes facial features to classify images as male or female. This project demonstrates image preprocessing, feature extraction, and deploying vision-based models into a seamless, user-facing Streamlit environment.
+A computer vision application that processes full facial features to classify images as male or female. This project demonstrates image preprocessing, feature extraction, and deploying vision-based models into a seamless, user-facing Streamlit environment.
 
-### 6. Dog/Cat Image Classifier
+### 6. Eye-Based Gender Classifier
+A highly specialized computer vision model trained to predict a person's gender analyzing solely an image of their eyes. This project highlights advanced deep learning techniques (like CNNs) to extract micro-features from localized regions of the face, performing inference accurately even when full facial data is obscured.
+
+### 7. Dog/Cat Image Classifier
 A classic vision problem tackled through an interactive web app. This module takes user-uploaded images and classifies them into dogs or cats, showcasing the ability to handle unstructured image data and integrate predictive models into a highly accessible web interface.
 
-### 7. End-to-End CNN Binary Classifier
+### 8. End-to-End CNN Binary Classifier
 An advanced deep learning deployment featuring a custom Convolutional Neural Network (CNN) configured for binary image classification. This architecture showcases a production-ready vision pipeline—handling raw image normalization, layer-by-layer feature map extractions, and outputting live inference probabilities upon image upload.
 
-### 8. Covid Detection (PulmonaryNet)
+### 9. Covid Detection (PulmonaryNet)
 An automated medical radiograph classification system powered by deep learning. PulmonaryNet processes chest X-ray images to assist in early screening and detection of COVID-19, showcasing how advanced computer vision architectures can be applied safely and effectively to real-world healthcare datasets.
 
-### 9. RAG Chatbot
+### 10. RAG Chatbot
 An intelligent Generative AI application built using Retrieval-Augmented Generation (RAG). This chatbot allows users to query custom documents and receive accurate, context-aware answers. It highlights the integration of Large Language Models (LLMs) with vector databases for efficient semantic search and automated information retrieval.
 
 ---
