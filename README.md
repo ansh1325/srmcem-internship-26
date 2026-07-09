@@ -1,6 +1,6 @@
 # 🚀 SRMCEM Internship 2026: Machine Learning & Deep Learning Deployments
 
-Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, and deep learning web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—spanning exploratory data analysis (EDA), foundational predictive models, and custom deep neural networks deployed as interactive web applications.
+Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, and deep learning web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—spanning exploratory data analysis (EDA), foundational predictive models, custom deep neural networks, and Generative AI applications deployed as interactive web interfaces.
 
 ## 🌐 Live Applications
 
@@ -16,6 +16,9 @@ Explore the deployed Streamlit applications for each module of the internship he
 * **[Dog/Cat Image Classifier](https://dog-image-classifier-jspe6lbetkp4emrtgf6bj6.streamlit.app/)**
 * **[End-to-End CNN Binary Classifier](https://end-to-end-cnn-deployment-for-binary-image-classification-g4ty.streamlit.app/)**
 * **[Covid Detection (PulmonaryNet)](https://pulmonarynet-dl-automated-radiograph-classification.streamlit.app/)**
+
+### NLP & Generative AI
+* **[RAG Chatbot](https://rag-chatbot-vbyip2xq8mgcwcnmeratd6.streamlit.app/)**
 
 ---
 
@@ -42,6 +45,9 @@ An advanced deep learning deployment featuring a custom Convolutional Neural Net
 ### 7. Covid Detection (PulmonaryNet)
 An automated medical radiograph classification system powered by deep learning. PulmonaryNet processes chest X-ray images to assist in early screening and detection of COVID-19, showcasing how advanced computer vision architectures can be applied safely and effectively to real-world healthcare datasets.
 
+### 8. RAG Chatbot
+An intelligent Generative AI application built using Retrieval-Augmented Generation (RAG). This chatbot allows users to query custom documents and receive accurate, context-aware answers. It highlights the integration of Large Language Models (LLMs) with vector databases for efficient semantic search and automated information retrieval.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -49,6 +55,7 @@ An automated medical radiograph classification system powered by deep learning. 
 * **Language:** Python
 * **Web Framework:** Streamlit
 * **Deep Learning & Computer Vision:** `TensorFlow` / `Keras` (or `PyTorch`), `OpenCV`, `Pillow (PIL)`
+* **NLP & GenAI:** `LangChain`, LLMs, Vector Databases (e.g., `FAISS` / `ChromaDB`)
 * **Machine Learning:** `scikit-learn`
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`
