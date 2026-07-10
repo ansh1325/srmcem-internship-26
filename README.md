@@ -2,6 +2,10 @@
 
 Welcome to my **SRMCEM Internship** repository! This project serves as a comprehensive portfolio of my machine learning, data science, deep learning, and Generative AI web applications. The goal of this internship project is to demonstrate a complete, end-to-end understanding of the data science lifecycle—spanning exploratory data analysis (EDA), foundational predictive and unsupervised models, custom deep neural networks, and interactive AI applications.
 
+**📽️ [View the Final Project Presentation Here](https://docs.google.com/presentation/d/1ykTlOOa8RjWk0MuZqrCF-zq8TE1QSoqL-tGaZlibiWE/edit?usp=sharing)**
+
+---
+
 ## 🌐 Live Applications
 
 Explore the deployed Streamlit applications for each module of the internship here:
