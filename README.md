@@ -25,6 +25,7 @@ Explore the deployed Streamlit applications for each module of the internship he
 
 ### NLP & Generative AI
 * **[RAG Chatbot](https://rag-chatbot-vbyip2xq8mgcwcnmeratd6.streamlit.app/)**
+* **[NLP Sentiment Analysis](https://nlp-sentiment-analysis-9.streamlit.app/)**
 
 ---
 
@@ -60,6 +61,9 @@ An automated medical radiograph classification system powered by deep learning. 
 ### 10. RAG Chatbot
 An intelligent Generative AI application built using Retrieval-Augmented Generation (RAG). This chatbot allows users to query custom documents and receive accurate, context-aware answers. It highlights the integration of Large Language Models (LLMs) with vector databases for efficient semantic search and automated information retrieval.
 
+### 11. NLP Sentiment Analysis
+A Natural Language Processing application designed to analyze text inputs and determine the underlying sentiment (e.g., positive, negative, or neutral). This project demonstrates text preprocessing, tokenization, and the deployment of NLP classification models to evaluate user feedback or reviews in real-time.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -68,7 +72,7 @@ An intelligent Generative AI application built using Retrieval-Augmented Generat
 * **Web Framework:** Streamlit
 * **Machine Learning:** `scikit-learn`
 * **Deep Learning & Computer Vision:** `TensorFlow` / `Keras` (or `PyTorch`), `OpenCV`, `Pillow (PIL)`
-* **NLP & GenAI:** `LangChain`, LLMs, Vector Databases (e.g., `FAISS` / `ChromaDB`)
+* **NLP & GenAI:** `NLTK`, `spaCy`, `LangChain`, LLMs, Vector Databases (e.g., `FAISS` / `ChromaDB`)
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Deployment:** Streamlit Community Cloud
